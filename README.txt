@@ -42,6 +42,9 @@ Push all changes to git
 ======================
 git push
 
+Store credential
+================
+git config credential.helper store
 
 
 ==============

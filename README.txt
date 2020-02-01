@@ -30,9 +30,13 @@ Remove file from stage
 =======================
 git rm --cached README.txt
 
-Commit
-======
+Commit all file after stage
+===========================
 git commit -m "first commit"
+
+Commit specific file
+====================
+git commit README.txt -m "test"
 
 See changes for tracked and untracked files
 ===========================================
@@ -61,3 +65,7 @@ git branch develop
 Switch default branch
 =====================
 git checkout develop
+
+Merge two branch
+================
+git merge develop

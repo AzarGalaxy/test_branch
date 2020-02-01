@@ -38,7 +38,23 @@ See changes for tracked and untracked files
 ===========================================
 git status
 
+Push all changes to git
+======================
+git push
+
+
+
+==============
+*** BRANCH ***
+==============
 Show all branches
 ==================
 git branch -a
 
+Create new branch
+=================
+git branch develop
+
+Switch default branch
+=====================
+git checkout develop

@@ -97,3 +97,6 @@ Get branches that are not merged with current branch
 =====================================================
 git branch --no-merged
 
+Local branch to remote branch
+=============================
+git push -u origin develop

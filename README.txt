@@ -99,4 +99,12 @@ git branch --no-merged
 
 Local branch to remote branch
 =============================
+//also we can this for push specific branch
 git push -u origin develop
+
+Delete remote branch
+====================
+git push origin --delete origin/develop
+
+
+[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]

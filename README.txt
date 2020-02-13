@@ -100,3 +100,11 @@ git branch --no-merged
 Local branch to remote branch
 =============================
 git push -u origin develop
+
+Create Tag
+==========
+git tag v1.1
+
+Show all tags
+=============
+git tag

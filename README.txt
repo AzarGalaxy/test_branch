@@ -36,7 +36,12 @@ git commit -m "first commit"
 
 Commit specific file
 ====================
+//No need to stage
 git commit README.txt -m "test"
+
+Add and commit
+===============
+git -am "message"
 
 See changes for tracked and untracked files
 ===========================================
@@ -62,10 +67,74 @@ Create new branch
 =================
 git branch develop
 
+Create new branch with checkout with specific branch
+====================================================
+git checkout -b staging master
+
 Switch default branch
 =====================
+//this is will checkout from the current branch
 git checkout develop
 
 Merge two branch
 ================
 git merge develop
+git merge --no-ff develop
+
+Delete branch
+=============
+//can't delete current branch from currently selected branch
+git branch -d test
+
+Delete remote branch
+====================
+git push origin --delete test
+
+Get last commits
+=================
+git branch -v
+
+Get branches that are merged with current branch
+================================================
+git branch --merged
+
+Get branches that are not merged with current branch
+=====================================================
+git branch --no-merged
+
+Local branch to remote branch
+=============================
+git push -u origin develop
+
+=============
+*** Tags ***
+=============
+
+Create Tag
+==========
+git tag v1.1
+
+Create Tag with annotation
+==========================
+git tag -a v2 -m "second release"
+
+Show all tags
+=============
+git tag
+
+Push tags to remote
+====================
+git push origin develop --tags
+
+Get tag from remote
+===================
+git fetch --tags
+
+Delete tag from remote
+======================
+git push --delete origin v1
+
+Delete tag from local
+======================
+git tag --delete v1
+

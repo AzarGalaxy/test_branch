@@ -79,6 +79,7 @@ git checkout develop
 Merge two branch
 ================
 git merge develop
+git merge --no-ff develop
 
 Delete branch
 =============

@@ -86,6 +86,10 @@ Delete branch
 //can't delete current branch from currently selected branch
 git branch -d test
 
+Delete remote branch
+====================
+git push origin --delete test
+
 Get last commits
 =================
 git branch -v
@@ -102,9 +106,9 @@ Local branch to remote branch
 =============================
 git push -u origin develop
 
-
-Tags
-=====
+=============
+*** Tags ***
+=============
 
 Create Tag
 ==========
@@ -121,3 +125,16 @@ git tag
 Push tags to remote
 ====================
 git push origin develop --tags
+
+Get tag from remote
+===================
+git fetch --tags
+
+Delete tag from remote
+======================
+git push --delete origin v1
+
+Delete tag from local
+======================
+git tag --delete v1
+

@@ -102,10 +102,22 @@ Local branch to remote branch
 =============================
 git push -u origin develop
 
+
+Tags
+=====
+
 Create Tag
 ==========
 git tag v1.1
 
+Create Tag with annotation
+==========================
+git tag -a v2 -m "second release"
+
 Show all tags
 =============
 git tag
+
+Push tags to remote
+====================
+git push origin develop --tags

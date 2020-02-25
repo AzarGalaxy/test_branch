@@ -138,6 +138,7 @@ Delete tag from local
 ======================
 git tag --delete v1
 
+edit from develop
 test
 
 edit from live
